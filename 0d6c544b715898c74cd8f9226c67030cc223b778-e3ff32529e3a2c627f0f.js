@@ -11550,15 +11550,11 @@
             o.a.createElement('img', { src: a.a, alt: 'phone' }),
             o.a.createElement('span', null, b.phone[n])
           ),
-          o.a.createElement(
-            'footer',
-            { class: 'footer-mobile--wrapper' },
             o.a.createElement(
               'a',
               { href: 'tel:+14074264090' },
               o.a.createElement('img', { src: a.a, alt: 'phone' }),
-              o.a.createElement('span', null, b.phone[n])
-            )
+              o.a.createElement('span', null, b.phoneUS[n])
           ),
           o.a.createElement(
             'a',
