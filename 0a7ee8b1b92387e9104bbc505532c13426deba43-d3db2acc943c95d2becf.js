@@ -884,6 +884,7 @@
           (a('fxdM'),
           {
             phoneCta: { en: 'Call now', es: 'Llame ahora', pt: 'Ligue agora' },
+            phoneCtaUS: { en: 'USA: call now', es: 'Estados Unidos: llame ahora', pt: 'Estados Unidos: ligue agora' },
             phoneDescription: {
               en: 'Let’s talk.',
               es: '¿Hablamos?',
@@ -903,6 +904,11 @@
               en: 'Click and solve everything by WhatsApp in minutes!',
               es: '¡Haga clic y resuelva todo por WhatsApp en minutos!',
               pt: 'Clique e resolva tudo pelo WhatsApp em minutos!'
+            },
+            contactboxUS: {
+              en: 'Fast service (Portuguese spoken)',
+              es: 'Servicio fácil y rápido',
+              pt: 'Atendimento rápido e fácil em português'
             }
           })
       t.a = function (e) {
@@ -984,8 +990,8 @@
                       l.a.createElement(
                         'div',
                         { class: 'contactbox--wrapper-cta-US' },
-                        l.a.createElement('img', { src: 'XPTOK5CYII=', alt: 'cta' }),
-                        l.a.createElement('p', null, 'Estados Unidos: Ligue agora')
+                        l.a.createElement('img', { src: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAALTSURBVHgBrVY/aBNRGP9974JDdchSK7hclYpasHWwgw62YKtQwYtiQ6Fg6+LiIoJuSt0c3ByctIJQbLWN4FBbIclSoQ6JwdZBbM9BoWbJkg62d8/3XciZf5dcLvlBcu/uffd+933v+73vI/jArHFhMCS0K1JiECR1gMKFGZkjSWkQ0nu29W489jHRaC2qNzlnDE9CiIdqqMMfTMCeHltYmUEzhLPGJV3T5CIk+hEMpmXT0HhsyaycEJUP3lwbuaEJO9UCGUPXhEy9NkaMyokyD9mABC2ijZBEk9G3Sy+rCJ0wsmduQrQNORXe08XwuiFVIYgHJeuNTkAfGvaaDmsk3ahp/Odko3IdAdB/8xaOR6I4PHAW+w924ffap2ojwqHrJ478nP+2mS54WEj9ptHZewo9oxH3nr309rTAIVjU8K+zMoS7j1Y9+5vPe5nrKk8GhUaagYAw48vImZtlz3ay2572RNIQKk37EBC7ypv082fuPZPntn542qv9Oy8kyVYEjoHbd93x9/cNJEzQRSu66x2bQIfKTIYZX3F+DRAWCAgmO6n0x8irfduYe+XrPcElpp4Bp35lqrP2imS7O3kkH9xD/s82fCAXIoIpPQ5qXrios55RA+vKi2OXI85HFMkS/slUKUU6JG1Kqs2sImSvSkXNmjt3///5wGFcffyoblZWwgK+CEtSrNZkR2eX54vZrxknjM2QMaTicqrF3NWLW6hx2pxRKV+6f0zEYc2uZxAA5tjCh+4Qj1T5mFbV4kWlxeenT/BrbRX7Og4gu5HxvVe1YIGm+erWw/nISEoVy5YOgTpwvOOBq8M9KSKNJBIMkgvwUPHOJeSKbNniDtoMaWOqtJkqO2nUxIy0ZZs85TVoKhpbLlOBd5votBzB6iQ3xpZFkVptYt1GWBFPKuKmGmHOxvGFpRl4fosPcKXm4qkaoL5COStt9R2SJItaeZRotNY/9iEXpI3O1mcAAAAASUVORK5CYII=', alt: 'cta' }),
+                        l.a.createElement('p', null, X.phoneCtaUS[o])
                       ),
                       l.a.createElement(
                         'div',
@@ -993,7 +999,7 @@
                         l.a.createElement(
                           'div',
                           { class: 'contactbox--description' },
-                          l.a.createElement('p', null, 'Atendimento r\xE1pido e f\xE1cil em portugu\xEAs')
+                          l.a.createElement('p', null, X.contactboxUS[o])
                         ),
                         l.a.createElement(
                           'div',
