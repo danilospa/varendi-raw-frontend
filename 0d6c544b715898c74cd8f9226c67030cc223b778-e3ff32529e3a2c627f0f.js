@@ -11529,6 +11529,7 @@
           (n('vL8C'),
           {
             phone: { en: 'Telephone', es: 'Teléfono', pt: 'Telefone' },
+            phoneUS: { en: 'USA', es: 'USA', pt: 'USA' },
             email: { en: 'Email', es: 'Correo electrónico', pt: 'Email' },
             whatsApp: { en: 'WhatsApp', es: 'WhatsApp', pt: 'WhatsApp' },
             emailSubject: {
@@ -11550,15 +11551,14 @@
             o.a.createElement('span', null, b.phone[n])
           ),
           o.a.createElement(
-            m,
-            {
-              email: p.a,
-              obfuscate: !0,
-              obfuscatedHref: 'Enviar Email',
-              headers: { subject: b.emailSubject[n] }
-            },
-            o.a.createElement('img', { src: c.a, alt: 'email' }),
-            o.a.createElement('span', null, b.email[n])
+            'footer',
+            { class: 'footer-mobile--wrapper' },
+            o.a.createElement(
+              'a',
+              { href: 'tel:+14074264090' },
+              o.a.createElement('img', { src: a.a, alt: 'phone' }),
+              o.a.createElement('span', null, b.phone[n])
+            )
           ),
           o.a.createElement(
             'a',
