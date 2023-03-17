@@ -11528,7 +11528,7 @@
         b =
           (n('vL8C'),
           {
-            phone: { en: 'Telephone', es: 'Teléfono', pt: 'Telefone' },
+            phone: { en: 'Brazil', es: 'Brazil', pt: 'Brasil' },
             phoneUS: { en: 'USA', es: 'USA', pt: 'USA' },
             email: { en: 'Email', es: 'Correo electrónico', pt: 'Email' },
             whatsApp: { en: 'WhatsApp', es: 'WhatsApp', pt: 'WhatsApp' },
