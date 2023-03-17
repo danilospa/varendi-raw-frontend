@@ -969,7 +969,7 @@
                   )
                 )
               ),
-              l.a.createElement(
+             l.a.createElement(
                 'div',
                 { class: 'main--contactbox-wrapper-US' },
                 l.a.createElement(
@@ -978,15 +978,18 @@
                   l.a.createElement(
                     'div',
                     { class: 'main--contactbox-item' },
-                    l.a.createElement(c, {
-                      icon: K.a,
-                      class: 'contactbox-grid',
-                      cta: "Estados Unidos: Ligue agora",
-                      contact: "(407) 426-4090",
-                      description: "Atendimento rápido e fácil em português"
-                    })
+                    l.a.createElement(
+                      'div',
+                      { class: 'contactbox-grid' }, // add div with class 'contactbox-grid' here
+                      l.a.createElement(c, {
+                        icon: K.a,
+                        cta: "Estados Unidos: Ligue agora",
+                        contact: "(407) 426-4090",
+                        description: "Atendimento rápido e fácil em português"
+                      })
+                    )
                   )
-                ),
+                )
               )
             ),
             l.a.createElement(
