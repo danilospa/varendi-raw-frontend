@@ -1957,7 +1957,7 @@
         c = {
           technical: {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           certified: {
@@ -4536,7 +4536,7 @@
         U = {
           technical: {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           certified: {
@@ -4548,27 +4548,27 @@
         B = {
           '/': {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           '/technical-translation': {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           '/technical-translation/': {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           '/traducciones-tecnicas': {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           '/traducciones-tecnicas/': {
             en: '/technical-translation',
-            es: '/traducciones-tecnicas',
+            es: '/traducciones-tecnicas/index.html',
             pt: '/'
           },
           '/traducoes-juramentadas': {
