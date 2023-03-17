@@ -969,24 +969,38 @@
                   )
                 )
               ),
-             l.a.createElement(
+              l.a.createElement(
                 'div',
                 { class: 'main--contactbox-wrapper-US' },
                 l.a.createElement(
                   'a',
-                  { href: 'tel:+55' + "12981374740", onClick: O.a.trackPhoneClick },
+                  { href: 'tel:+14074264090' },
                   l.a.createElement(
                     'div',
                     { class: 'main--contactbox-item' },
                     l.a.createElement(
                       'div',
-                      { class: 'contactbox-grid' }, // add div with class 'contactbox-grid' here
-                      l.a.createElement(c, {
-                        icon: K.a,
-                        cta: "Estados Unidos: Ligue agora",
-                        contact: "(407) 426-4090",
-                        description: "Atendimento rápido e fácil em português"
-                      })
+                      { class: 'contactbox--wrapper-US' },
+                      l.a.createElement(
+                        'div',
+                        { class: 'contactbox--wrapper-cta-US' },
+                        l.a.createElement('img', { src: 'XPTOK5CYII=', alt: 'cta' }),
+                        l.a.createElement('p', null, 'Estados Unidos: Ligue agora')
+                      ),
+                      l.a.createElement(
+                        'div',
+                        { class: 'contactbox--grid' },
+                        l.a.createElement(
+                          'div',
+                          { class: 'contactbox--description' },
+                          l.a.createElement('p', null, 'Atendimento r\xE1pido e f\xE1cil em portugu\xEAs')
+                        ),
+                        l.a.createElement(
+                          'div',
+                          { class: 'contactbox--contact' },
+                          l.a.createElement('p', null, '(407) 426-4090')
+                        )
+                      )
                     )
                   )
                 )
